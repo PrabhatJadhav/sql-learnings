@@ -1,0 +1,18 @@
+create table <table-name>(
+	<column name> <datatype>,
+	<column name> <datatype>,
+	<column name> <datatype>
+);
+
+rename table <current-name> to <new-name>;
+
+drop table <table-name>;
+
+alter table <table-name>
+add <new-field> <datatype>;
+
+alter table <table-name>
+rename column <current-name> to <new-name>;
+
+alter table <table-name>
+modify column <current-name> to <new-name>;
