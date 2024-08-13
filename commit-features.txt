@@ -1,0 +1,9 @@
+by default autocommit is off
+
+set autocommit = off;
+
+all transactions will not be saved automatically
+
+commit; > creates a checkpoint for rollback 
+
+rollback; > will rollback to previous commit point
