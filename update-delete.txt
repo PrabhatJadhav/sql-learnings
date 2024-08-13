@@ -1,0 +1,65 @@
+update <table-name>
+set <colname> = value
+where <row-name> <all selectors from previous file> value;
+
+update <table-name>
+set <colname> = value,
+set <colname> = value
+where <row-name> <all selectors from previous file> value;
+
+will update all columns
+update <table-name>
+set <colname> = value
+
+
+delete from <table-name>
+where <row-name> <all selectors from previous file> value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+insert into <column-name>
+value / values(
+	value according to data type,
+	value according to data type,
+	value according to data type
+);
+
+
+insert into <column-name> ( val1,val2)
+value / values(
+	value according to data type,
+	value according to data type
+);
+
+
+select <colname>, <colname>
+from <table-name>;
+
+select * 
+from <table-name> 
+where <colname> = searchString;
+
+select * 
+from <table-name> 
+where <colname> >= searchString;
+
+select * 
+from <table-name> 
+where <colname> != searchString;
+
+select * 
+from <table-name> 
+where <colname> is null;
+
+select * 
+from <table-name> 
+where <colname> is not null;
+
+
+
+
+
+
+
+
+
+
