@@ -1,4 +1,4 @@
-by default autocommit is off
+by default autocommit is on
 
 set autocommit = off;
 
