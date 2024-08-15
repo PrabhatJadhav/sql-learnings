@@ -16,6 +16,7 @@ delete from <table-name>
 where <row-name> <all selectors from previous file> value;
 
 
+all selectors from previous file means from file name > insert-filter-rows
 
 
 
