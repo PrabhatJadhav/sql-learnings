@@ -1,0 +1,42 @@
+While creating new table
+
+create table <table-name> (
+id int,
+name varchar(50) unique,
+price decimal(4,2)
+)
+
+
+Updating already created table
+
+alter table <table-name>
+add constraint
+unique(<col-name>)
+
+
+
+
+Similar with <not null> constraint
+
+While creating new table
+
+create table <table-name> (
+id int,
+name varchar(50) not null,
+price decimal(4,2)
+)
+
+
+Updating already created table
+
+alter table <table-name>
+modify <col-name> (<data type if any>) not null
+
+
+
+
+
+
+
+
+
