@@ -1,0 +1,65 @@
+// PRIMARY KEY > Unique and Not null
+
+
+create table <table-name> (
+id int primary key,
+name varchar(50) unique,
+price decimal(4,2)
+)
+
+
+Updating already created table
+
+alter table <table-name>
+add constraint
+primary key(<col-name>)
+
+
+
+// FOREIGN KEY > Unique and Not null
+
+
+Cross referencing of data
+To help establish some link between tables
+foreign key can be defined in child table > the data from parent table is stored in child table
+eg. products table has product id, users table has user id > in orders table we can populate user and product id to create link between them
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
