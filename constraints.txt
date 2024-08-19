@@ -1,4 +1,6 @@
-While creating new table
+// UNIQUE CONSTRAINT
+
+While creating new table and wanting a unique name column
 
 create table <table-name> (
 id int,
@@ -14,6 +16,7 @@ add constraint
 unique(<col-name>)
 
 
+// NOT NULL CONSTRAINT
 
 
 Similar with <not null> constraint
@@ -33,10 +36,36 @@ alter table <table-name>
 modify <col-name> (<data type if any>) not null
 
 
+// CHECK CONSTRAINT
+
+While creating new table
+
+create table <table-name> (
+id int,
+name varchar(50) not null,
+price decimal(4,2)
+constraint <check-name> check (price > 0)
+)
 
 
+Updating already created table
+
+alter table <table-name>
+add constraint <check-name> check (price > 0)
 
 
+// DEFAULT CONSTRAINT
+
+While creating new table
+
+create table <table-name> (
+id int,
+name varchar(50) not null,
+price decimal(4,2) default 1.00
+)
 
 
+Updating already created table
 
+alter table <table-name>
+alter price set default 1
