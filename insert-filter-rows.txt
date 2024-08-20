@@ -36,8 +36,19 @@ select *
 from <table-name> 
 where <colname> is not null;
 
+we can also use AND / OR / NOT
 
+select * 
+from <table-name> 
+where <colname> = searchString AND <colname> = searchString;
 
+select * 
+from <table-name> 
+where <colname> = searchString OR <colname> = searchString;
+
+select * 
+from <table-name> 
+where NOT <colname> = searchString;
 
 
 
