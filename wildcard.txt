@@ -1,0 +1,33 @@
+these are characters which are used to substitute one or more characters in a string
+
+2 chars :-
+% & _  
+
+select * from employees
+where <colname> LIKE "prab%"; > start with
+where <colname> LIKE "%hat"; > ends with
+
+
+
+select * from employees
+where <colname> LIKE "Prab__t"; > similar to guess the name
+
+
+
+can also be combined
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
