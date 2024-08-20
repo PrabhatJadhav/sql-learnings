@@ -1,0 +1,29 @@
+Used to combine rows from 2 or more tables based on related column b/w them like foreign key
+
+3 types of Joins :- 
+- Inner ( common from both )
+- Left ( everything from first table except common )
+- Right ( everything from second table except common )
+
+
+select * / transactions_id, amount,user_id
+from transactions inner/right/left join customers
+on transactions.customer_id = customers.customer_id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
